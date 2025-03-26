@@ -5,21 +5,29 @@ Do this inside the previously provided docker container.
 `docker run -it -p 3000:3000 --privileged -v /var/run/docker.sock:/var/run/docker.sock devops-session`
 
 `node --version`
+
 `npm --version`
+
 `docker --version`
 
 `git --version`
+
 `apt-get install -y git`
+
 `git --version`
 
 `git clone https://github.com/SAMAHAN-Systems-Development/FYLP-frontend-2024.git`
 
 `cd FYLP-frontend-2024`
+
 `npm i`
+
 `npm run build`
 
 `npm i -g pm2`
+
 `pm2 start npm --name FYLP-frontend-2024 -- run start`
+
 `pm2 list`
 
 Commands for Dockerization
